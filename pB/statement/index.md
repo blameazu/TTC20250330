@@ -1,23 +1,29 @@
-# TODO: 題目名稱
+# 我是在進步還是退步?
 
-<!-- \begin{figure}[h]
+\begin{figure}[h]
 \centering
-\includegraphics[width=2in]{TODO.jpg}
-\caption{TODO: 圖片說明}
-\end{figure} -->
+\includegraphics[width=2in]{photo.jpg}
+\caption{Blame是菜狗}
+\end{figure}
 
-TODO: 題目敘述
+隨著心神一直...
 
 \clearpage
 
 ## 輸入
-TODO: 輸入說明
+第一行輸入一數 $Q$
+接下來 $Q$ 行
+每行開頭會有一數 $C$ 代表操作種類
+假如為操作 $1$，後面會接著一個數字 $A$
 
 ## 輸出
-TODO: 輸出說明
+根據操作 $3$ 輸出答案
 
 ## 輸入限制
- - TODO: 輸入限制
+ - $1 \le Q \le 10^6$
+ - $1 \le C \le 3$
+ - $1 \le A \le 2^{31}-1$
+ - 操作 $3$ 必定會出現一次以上
 
 ## 子任務
 \subtasks

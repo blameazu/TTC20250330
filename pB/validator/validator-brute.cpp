@@ -5,7 +5,7 @@ int main(int argc, char* argv[]) {
 	registerValidation(argc, argv);
 	// about testlib, see https://codeforces.com/blog/entry/18426
 
-	int n = inf.readInt(1, 1000000, "n");
+	int n = inf.readInt(1, 1000, "n");
 	int cnt = 0;
 	inf.readEoln();
 	for(int i = 0; i < n; i++) {

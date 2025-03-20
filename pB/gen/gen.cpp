@@ -7,8 +7,16 @@ int main(int argc, char* argv[]) {
 	// about testlib, see https://codeforces.com/blog/entry/18291
 
 	// TODO
-	int n = atoi(argv[1]);
-	cout << n << endl;
+	int q = atoi(argv[1]);
+	cout << q << '\n';
+	while(q--) {
+		int c = rnd.next(1, 3);
+		cout << c;
+		if(c == 1) {
+			cout << ' ' << rnd.next(1, INT_MAX);
+		}
+		cout << '\n';
+	}
 
 	return 0;
 }
