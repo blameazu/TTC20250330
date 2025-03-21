@@ -12,14 +12,14 @@
         "brute": {
             "index": 0,
             "score": 17,
-            "text": "$1 \le Q \le 10^3$",
-            "validators": [validator-brute.cpp]
+            "text": "$1 \\le Q \\le 10^3$",
+            "validators": ["validator-brute.cpp"]
         },
         "logs": {
             "index": 0,
             "score": 43,
-            "text": "$1 \le Q \le 10^5$",
-            "validators": [validator-logs.cpp]
+            "text": "$1 \\le Q \\le 10^5$",
+            "validators": ["validator-logs.cpp"]
         },
         "full": {
             "index": 1,
