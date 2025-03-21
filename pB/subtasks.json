@@ -10,19 +10,19 @@
             "validators": []
         },
         "brute": {
-            "index": 0,
+            "index": 1,
             "score": 17,
             "text": "$1 \\le Q \\le 10^3$",
             "validators": ["validator-brute.cpp"]
         },
         "logs": {
-            "index": 0,
+            "index": 2,
             "score": 43,
             "text": "$1 \\le Q \\le 10^5$",
             "validators": ["validator-logs.cpp"]
         },
         "full": {
-            "index": 1,
+            "index": 3,
             "score": 40,
             "text": "無額外限制",
             "validators": []
