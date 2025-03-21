@@ -11,7 +11,7 @@ signed main() {
 			int a; cin >> a;
 			dqq.push_back(a);
 		} else if(c == 2) {
-			dqq.pop_front();
+			if(dqq.size()) dqq.pop_front();
 		} else {
 			int re = -1;
 			for(auto &d : dqq) re = max(re, d);
