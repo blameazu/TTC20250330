@@ -2,7 +2,7 @@
 
 \begin{figure}[h]
 \centering
-\includegraphics[width=2in]{photo.jpg}
+\includegraphics[width=10in]{photo.jpg}
 \caption{從巴哈上截下來的某一帖}
 \end{figure}
 
