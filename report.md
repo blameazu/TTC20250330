@@ -20,17 +20,17 @@
 | subtasks.json<br>global_validators |  [:white_check_mark:](pA/subtasks.json) | [:white_check_mark:](pB/subtasks.json) | [:white_check_mark:](pC/subtasks.json) | [:white_check_mark:](pD/subtasks.json) | [:white_check_mark:](pE/subtasks.json) |
 | tests | [:x:](pA/tests)<br>[Auto build disabled](pA/gen/DISABLE_AUTO_BUILD) | [:white_check_mark:](pB/tests)<br>[Auto build disabled](pB/gen/DISABLE_AUTO_BUILD) | [:x:](pC/tests)<br>[Auto build disabled](pC/gen/DISABLE_AUTO_BUILD) | [:x:](pD/tests)<br>[Auto build disabled](pD/gen/DISABLE_AUTO_BUILD) | [:x:](pE/tests)<br>[Auto build disabled](pE/gen/DISABLE_AUTO_BUILD) |
 | statement/index.md | [:x:](pA/statement/index.md) | [:white_check_mark:](pB/statement/index.md) | [:x:](pC/statement/index.md) | [:x:](pD/statement/index.md) | [:x:](pE/statement/index.md) |
-| statement/index.pdf | [:x:](pA/statement/index.pdf)<br>[Auto build disabled](pA/statement/DISABLE_AUTO_BUILD) | [:x:](pB/statement/index.pdf)<br>[Auto build disabled](pB/statement/DISABLE_AUTO_BUILD) | [:x:](pC/statement/index.pdf)<br>[Auto build disabled](pC/statement/DISABLE_AUTO_BUILD) | [:x:](pD/statement/index.pdf)<br>[Auto build disabled](pD/statement/DISABLE_AUTO_BUILD) | [:x:](pE/statement/index.pdf)<br>[Auto build disabled](pE/statement/DISABLE_AUTO_BUILD) |
+| statement/index.pdf | [:x:](pA/statement/index.pdf)<br>[Auto build disabled](pA/statement/DISABLE_AUTO_BUILD) | [:white_check_mark:](pB/statement/index.pdf)<br>[Auto build disabled](pB/statement/DISABLE_AUTO_BUILD) | [:x:](pC/statement/index.pdf)<br>[Auto build disabled](pC/statement/DISABLE_AUTO_BUILD) | [:x:](pD/statement/index.pdf)<br>[Auto build disabled](pD/statement/DISABLE_AUTO_BUILD) | [:x:](pE/statement/index.pdf)<br>[Auto build disabled](pE/statement/DISABLE_AUTO_BUILD) |
 
 <!-- progress end -->
 
 ## Subtasks
 <!-- subtasks start -->
 
-| | 1 |
-| --- | --- |
+| | 1 | 2 | 3 |
+| --- | --- | --- | --- |
 | A | 100<br>無額外限制 |
-| B | 40<br>無額外限制 |
+| B | 17<br>$1 \le Q \le 10^3$ | 43<br>$1 \le Q \le 10^5$ | 40<br>無額外限制 |
 | C | 100<br>無額外限制 |
 | D | 100<br>無額外限制 |
 | E | 100<br>無額外限制 |
@@ -42,18 +42,17 @@
 
 | score | count | groups |
 | --- | --- | --- |
-| 100 | 5 | (B0, B1) (A1) (C1) (D1) (E1) |
-| 117 | 4 | (A1, B0) (B0, C1) (B0, D1) (B0, E1) |
-| 140 | 4 | (A1, B1) (B1, C1) (B1, D1) (B1, E1) |
-| 143 | 4 | (A1, B0) (B0, C1) (B0, D1) (B0, E1) |
-| 157 | 4 | (A1, B0, B1) (B0, B1, C1) (B0, B1, D1) (B0, B1, E1) |
-| 160 | 4 | (A1, B0) (B0, C1) (B0, D1) (B0, E1) |
-| 183 | 4 | (A1, B0, B1) (B0, B1, C1) (B0, B1, D1) (B0, B1, E1) |
-| 200 | 10 | (A1, B0, B1) (B0, B1, C1) (A1, C1) (B0, B1, D1) (A1, D1) (C1, D1) (B0, B1, E1) (A1, E1) (C1, E1) (D1, E1) |
-| 217 | 6 | (A1, B0, C1) (A1, B0, D1) (B0, C1, D1) (A1, B0, E1) (B0, C1, E1) (B0, D1, E1) |
-| 240 | 6 | (A1, B1, C1) (A1, B1, D1) (B1, C1, D1) (A1, B1, E1) (B1, C1, E1) (B1, D1, E1) |
-| 243 | 6 | (A1, B0, C1) (A1, B0, D1) (B0, C1, D1) (A1, B0, E1) (B0, C1, E1) (B0, D1, E1) |
-| 260 | 6 | (A1, B0, C1) (A1, B0, D1) (B0, C1, D1) (A1, B0, E1) (B0, C1, E1) (B0, D1, E1) |
+| 100 | 5 | (B1, B2, B3) (A1) (C1) (D1) (E1) |
+| 117 | 4 | (A1, B1) (B1, C1) (B1, D1) (B1, E1) |
+| 140 | 4 | (A1, B3) (B3, C1) (B3, D1) (B3, E1) |
+| 143 | 4 | (A1, B2) (B2, C1) (B2, D1) (B2, E1) |
+| 157 | 4 | (A1, B1, B3) (B1, B3, C1) (B1, B3, D1) (B1, B3, E1) |
+| 160 | 4 | (A1, B1, B2) (B1, B2, C1) (B1, B2, D1) (B1, B2, E1) |
+| 183 | 4 | (A1, B2, B3) (B2, B3, C1) (B2, B3, D1) (B2, B3, E1) |
+| 200 | 6 | (A1, C1) (A1, D1) (C1, D1) (A1, E1) (C1, E1) (D1, E1) |
+| 217 | 6 | (A1, B1, C1) (A1, B1, D1) (B1, C1, D1) (A1, B1, E1) (B1, C1, E1) (B1, D1, E1) |
+| 240 | 6 | (A1, B3, C1) (A1, B3, D1) (B3, C1, D1) (A1, B3, E1) (B3, C1, E1) (B3, D1, E1) |
+| 243 | 6 | (A1, B2, C1) (A1, B2, D1) (B2, C1, D1) (A1, B2, E1) (B2, C1, E1) (B2, D1, E1) |
 | 300 | 4 | (A1, C1, D1) (A1, C1, E1) (A1, D1, E1) (C1, D1, E1) |
 
 <!-- scores end -->
