@@ -1,0 +1,17 @@
+# test_name gen_line_number gen_line_content
+0-01	  4	manual sample-01.in
+1-01	  7	gen 1000 ajskdfl
+1-02	  8	gen 1000 asjdkf
+1-03	  9	gen 1000 aoijejfo
+1-04	 10	gen 1000 uweriop
+1-05	 11	gen 1000 dsuof
+2-01	 14	gen 100000 jklsdf
+2-02	 15	gen 100000 sdklje
+2-03	 16	gen 99999 sjdkfl
+2-04	 17	gen 82347 u03urslkdj
+2-05	 18	gen 100000 skjdlf
+3-01	 21	gen 1000000 oiwjer
+3-02	 22	gen 1000000 sdjfow
+3-03	 23	gen 183427 sd0fujoew
+3-04	 24	gen 1000000 pwejrld
+3-05	 25	gen 999999 lsdf
