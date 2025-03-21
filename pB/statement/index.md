@@ -3,7 +3,7 @@
 \begin{figure}[h]
 \centering
 \includegraphics[width=2in]{photo.jpg}
-\caption{Blame是菜狗}
+\caption{從巴哈上截下來的某一帖}
 \end{figure}
 
 隨著時間流逝，Blame 的心神也逐漸被雀魂這款遊戲所吞噬。  
@@ -57,8 +57,11 @@ Blame 突然明白，雀魂也正是這樣。
 
 ## 輸入
 第一行輸入一數 $Q$
+
 接下來 $Q$ 行
+
 每行開頭會有一數 $X$ 代表操作種類
+
 假如為操作 $1$，後面會接著一個數字 $A$
 
 ## 輸出
