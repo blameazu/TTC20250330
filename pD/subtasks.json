@@ -23,13 +23,13 @@
         },
         "anti-dfs": {
             "index": 3,
-            "score": 11,
+            "score": 20,
             "text": "$2 \\le N \\le 1000$",
             "validators": ["validator-4.cpp"]
         },
         "full": {
             "index": 4,
-            "score": 79,
+            "score": 59,
             "text": "無額外限制",
             "validators": []
         }
