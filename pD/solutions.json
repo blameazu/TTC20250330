@@ -4,10 +4,14 @@
 	},
 	"brute-1.cpp": {
 		"verdict": "incorrect",
-		"except": {"samples": "correct", "brute-1": "correct", "brute-2": "time_limit", "full": "time_limit"}
+		"except": {"samples": "correct", "brute-1": "correct", "brute-2": "time_limit", "anti-dfs": "time_limit", "full": "time_limit"}
 	},
 	"brute-2.cpp": {
 		"verdict": "incorrect",
-		"except": {"samples": "correct", "brute-1": "correct", "brute-2": "correct", "full": "time_limit"}
+		"except": {"samples": "correct", "brute-1": "correct", "brute-2": "correct", "anti-dfs": "time_limit", "full": "time_limit"}
+	},
+	"tle.cpp": {
+		"verdict": "incorrect",
+		"except": {"samples": "correct", "brute-1": "correct", "brute-2": "correct", "anti-dfs": "correct", "full": "time_limit"}
 	}
 }

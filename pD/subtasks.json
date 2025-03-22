@@ -13,16 +13,22 @@
             "index": 1,
             "score": 10,
             "text": "$1 \\le Q \\le 100$, $1 \\le M \\le 8$",
-            "validators": []
+            "validators": ["validator-2.cpp"]
         },
         "brute-2": {
             "index": 2,
             "score": 11,
             "text": "$1 \\le Q \\le 1000$",
-            "validators": []
+            "validators": ["validator-3.cpp"]
+        },
+        "anti-dfs": {
+            "index": 3,
+            "score": 11,
+            "text": "$2 \\le N \\le 1000$",
+            "validators": ["validator-4.cpp"]
         },
         "full": {
-            "index": 3,
+            "index": 4,
             "score": 79,
             "text": "無額外限制",
             "validators": []
