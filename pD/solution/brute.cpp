@@ -5,6 +5,7 @@ using namespace std;
 signed main() {
 	ios::sync_with_stdio(false), cin.tie(0);
 	int n, m, c; cin >> n >> m >> c;
+    m = min(m, 4);
 	vector<vector<int> > f(n+1);
 	int q; cin >> q;
 	int re = 0;
