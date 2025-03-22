@@ -2,8 +2,12 @@
 	"correct.cpp": {
 		"verdict": "model_solution"
 	},
-	"brute.cpp": {
+	"brute-1.cpp": {
 		"verdict": "incorrect",
-		"except": {"samples": "correct", "brute": "correct", "full": "time_limit"}
+		"except": {"samples": "correct", "brute-1": "correct", "brute-2": "time_limit", "full": "time_limit"}
+	},
+	"brute-2.cpp": {
+		"verdict": "incorrect",
+		"except": {"samples": "correct", "brute-1": "correct", "brute-2": "correct", "full": "time_limit"}
 	}
 }
