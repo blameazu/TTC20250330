@@ -18,21 +18,21 @@
 | solution | [:x:](pA/solution)<br>[correct.cpp](pA/solution/correct.cpp) | [:white_check_mark:](pB/solution) | [:x:](pC/solution)<br>[correct.cpp](pC/solution/correct.cpp) | [:white_check_mark:](pD/solution) | [:x:](pE/solution)<br>[correct.cpp](pE/solution/correct.cpp) |
 | validator | [:x:](pA/validator)<br>[validator.cpp](pA/validator/validator.cpp) | [:white_check_mark:](pB/validator) | [:x:](pC/validator)<br>[validator.cpp](pC/validator/validator.cpp) | [:white_check_mark:](pD/validator) | [:x:](pE/validator)<br>[validator.cpp](pE/validator/validator.cpp) |
 | subtasks.json<br>global_validators |  [:white_check_mark:](pA/subtasks.json) | [:white_check_mark:](pB/subtasks.json) | [:white_check_mark:](pC/subtasks.json) | [:white_check_mark:](pD/subtasks.json) | [:white_check_mark:](pE/subtasks.json) |
-| tests | [:x:](pA/tests)<br>[Auto build disabled](pA/gen/DISABLE_AUTO_BUILD) | [:white_check_mark:](pB/tests)<br>[Auto build disabled](pB/gen/DISABLE_AUTO_BUILD) | [:x:](pC/tests)<br>[Auto build disabled](pC/gen/DISABLE_AUTO_BUILD) | [:white_check_mark:](pD/tests)<br>[Auto build disabled](pD/gen/DISABLE_AUTO_BUILD) | [:x:](pE/tests)<br>[Auto build disabled](pE/gen/DISABLE_AUTO_BUILD) |
+| tests | [:x:](pA/tests)<br>[Auto build disabled](pA/gen/DISABLE_AUTO_BUILD) | [:white_check_mark:](pB/tests) | [:x:](pC/tests)<br>[Auto build disabled](pC/gen/DISABLE_AUTO_BUILD) | [:white_check_mark:](pD/tests)<br>[Auto build disabled](pD/gen/DISABLE_AUTO_BUILD) | [:x:](pE/tests)<br>[Auto build disabled](pE/gen/DISABLE_AUTO_BUILD) |
 | statement/index.md | [:x:](pA/statement/index.md) | [:white_check_mark:](pB/statement/index.md) | [:x:](pC/statement/index.md) | [:white_check_mark:](pD/statement/index.md) | [:x:](pE/statement/index.md) |
-| statement/index.pdf | [:x:](pA/statement/index.pdf)<br>[Auto build disabled](pA/statement/DISABLE_AUTO_BUILD) | [:white_check_mark:](pB/statement/index.pdf) | [:x:](pC/statement/index.pdf)<br>[Auto build disabled](pC/statement/DISABLE_AUTO_BUILD) | [:white_check_mark:](pD/statement/index.pdf)<br>[Auto build disabled](pD/statement/DISABLE_AUTO_BUILD) | [:x:](pE/statement/index.pdf)<br>[Auto build disabled](pE/statement/DISABLE_AUTO_BUILD) |
+| statement/index.pdf | [:x:](pA/statement/index.pdf)<br>[Auto build disabled](pA/statement/DISABLE_AUTO_BUILD) | [:white_check_mark:](pB/statement/index.pdf) | [:x:](pC/statement/index.pdf)<br>[Auto build disabled](pC/statement/DISABLE_AUTO_BUILD) | [:white_check_mark:](pD/statement/index.pdf) | [:x:](pE/statement/index.pdf)<br>[Auto build disabled](pE/statement/DISABLE_AUTO_BUILD) |
 
 <!-- progress end -->
 
 ## Subtasks
 <!-- subtasks start -->
 
-| | 1 | 2 | 3 |
-| --- | --- | --- | --- |
+| | 1 | 2 | 3 | 4 |
+| --- | --- | --- | --- | --- |
 | A | 100<br>無額外限制 |
 | B | 17<br>$1 \le Q \le 10^3$ | 43<br>$1 \le Q \le 10^5$ | 40<br>無額外限制 |
 | C | 100<br>無額外限制 |
-| D | 10<br>$1 \le Q \le 100$, $1 \le M \le 8$ | 11<br>$1 \le Q \le 1000$ | 79<br>無額外限制 |
+| D | 10<br>$1 \le Q \le 100$, $1 \le M \le 8$ | 11<br>$1 \le Q \le 1000$ | 11<br>$2 \le N \le 1000$ | 79<br>無額外限制 |
 | E | 100<br>無額外限制 |
 
 <!-- subtasks end -->
@@ -42,34 +42,50 @@
 
 | score | count | groups |
 | --- | --- | --- |
-| 100 | 5 | (B1, B2, B3) (D1, D2, D3) (A1) (C1) (E1) |
+| 11 | 2 | (D2) (D3) |
+| 21 | 2 | (D1, D2) (D1, D3) |
+| 28 | 2 | (B1, D2) (B1, D3) |
+| 38 | 2 | (B1, D1, D2) (B1, D1, D3) |
+| 51 | 2 | (B3, D2) (B3, D3) |
+| 54 | 2 | (B2, D2) (B2, D3) |
+| 61 | 2 | (B3, D1, D2) (B3, D1, D3) |
+| 64 | 2 | (B2, D1, D2) (B2, D1, D3) |
+| 68 | 2 | (B1, B3, D2) (B1, B3, D3) |
+| 71 | 2 | (B1, B2, D2) (B1, B2, D3) |
+| 90 | 2 | (D2, D4) (D3, D4) |
+| 94 | 2 | (B2, B3, D2) (B2, B3, D3) |
+| 100 | 6 | (B1, B2, B3) (D1, D2, D4) (D1, D3, D4) (A1) (C1) (E1) |
+| 107 | 2 | (B1, D2, D4) (B1, D3, D4) |
 | 110 | 3 | (A1, D1) (C1, D1) (D1, E1) |
-| 111 | 3 | (A1, D2) (C1, D2) (D2, E1) |
+| 111 | 6 | (A1, D2) (A1, D3) (C1, D2) (C1, D3) (D2, E1) (D3, E1) |
 | 117 | 3 | (A1, B1) (B1, C1) (B1, E1) |
-| 121 | 3 | (A1, D1, D2) (C1, D1, D2) (D1, D2, E1) |
+| 121 | 6 | (A1, D1, D2) (A1, D1, D3) (C1, D1, D2) (C1, D1, D3) (D1, D2, E1) (D1, D3, E1) |
+| 122 | 4 | (B2, D4) (A1, D2, D3) (C1, D2, D3) (D2, D3, E1) |
 | 127 | 3 | (A1, B1, D1) (B1, C1, D1) (B1, D1, E1) |
-| 128 | 3 | (A1, B1, D2) (B1, C1, D2) (B1, D2, E1) |
+| 128 | 6 | (A1, B1, D2) (A1, B1, D3) (B1, C1, D2) (B1, C1, D3) (B1, D2, E1) (B1, D3, E1) |
+| 130 | 2 | (B3, D2, D4) (B3, D3, D4) |
+| 133 | 2 | (B2, D2, D4) (B2, D3, D4) |
 | 140 | 3 | (A1, B3) (B3, C1) (B3, E1) |
 | 143 | 3 | (A1, B2) (B2, C1) (B2, E1) |
 | 150 | 3 | (A1, B3, D1) (B3, C1, D1) (B3, D1, E1) |
-| 151 | 3 | (A1, B3, D2) (B3, C1, D2) (B3, D2, E1) |
+| 151 | 6 | (A1, B3, D2) (A1, B3, D3) (B3, C1, D2) (B3, C1, D3) (B3, D2, E1) (B3, D3, E1) |
 | 153 | 3 | (A1, B2, D1) (B2, C1, D1) (B2, D1, E1) |
-| 154 | 3 | (A1, B2, D2) (B2, C1, D2) (B2, D2, E1) |
+| 154 | 6 | (A1, B2, D2) (A1, B2, D3) (B2, C1, D2) (B2, C1, D3) (B2, D2, E1) (B2, D3, E1) |
 | 157 | 3 | (A1, B1, B3) (B1, B3, C1) (B1, B3, E1) |
 | 160 | 3 | (A1, B1, B2) (B1, B2, C1) (B1, B2, E1) |
-| 179 | 3 | (A1, D3) (C1, D3) (D3, E1) |
+| 179 | 3 | (A1, D4) (C1, D4) (D4, E1) |
 | 183 | 3 | (A1, B2, B3) (B2, B3, C1) (B2, B3, E1) |
-| 189 | 3 | (A1, D1, D3) (C1, D1, D3) (D1, D3, E1) |
-| 190 | 3 | (A1, D2, D3) (C1, D2, D3) (D2, D3, E1) |
-| 196 | 3 | (A1, B1, D3) (B1, C1, D3) (B1, D3, E1) |
+| 189 | 3 | (A1, D1, D4) (C1, D1, D4) (D1, D4, E1) |
+| 190 | 6 | (A1, D2, D4) (A1, D3, D4) (C1, D2, D4) (C1, D3, D4) (D2, D4, E1) (D3, D4, E1) |
+| 196 | 3 | (A1, B1, D4) (B1, C1, D4) (B1, D4, E1) |
 | 200 | 3 | (A1, C1) (A1, E1) (C1, E1) |
 | 210 | 3 | (A1, C1, D1) (A1, D1, E1) (C1, D1, E1) |
-| 211 | 3 | (A1, C1, D2) (A1, D2, E1) (C1, D2, E1) |
+| 211 | 6 | (A1, C1, D2) (A1, C1, D3) (A1, D2, E1) (A1, D3, E1) (C1, D2, E1) (C1, D3, E1) |
 | 217 | 3 | (A1, B1, C1) (A1, B1, E1) (B1, C1, E1) |
-| 219 | 3 | (A1, B3, D3) (B3, C1, D3) (B3, D3, E1) |
-| 222 | 3 | (A1, B2, D3) (B2, C1, D3) (B2, D3, E1) |
+| 219 | 3 | (A1, B3, D4) (B3, C1, D4) (B3, D4, E1) |
+| 222 | 3 | (A1, B2, D4) (B2, C1, D4) (B2, D4, E1) |
 | 240 | 3 | (A1, B3, C1) (A1, B3, E1) (B3, C1, E1) |
 | 243 | 3 | (A1, B2, C1) (A1, B2, E1) (B2, C1, E1) |
-| 279 | 3 | (A1, C1, D3) (A1, D3, E1) (C1, D3, E1) |
+| 279 | 3 | (A1, C1, D4) (A1, D4, E1) (C1, D4, E1) |
 
 <!-- scores end -->
