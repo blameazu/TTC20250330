@@ -14,9 +14,9 @@
 | memory_limit |  512 | 512 | 512 | 512 | 512 |
 | time_limit |  1.0 | 1.0 | 1.0 | 1.0 | 1.0 |
 | has_checker |  False | False | False | False | False |
-| gen | [:x:](pA/gen)<br>[gen.cpp](pA/gen/gen.cpp)<br>[data](pA/gen/data) | [:white_check_mark:](pB/gen) | [:x:](pC/gen)<br>[gen.cpp](pC/gen/gen.cpp)<br>[data](pC/gen/data) | [:x:](pD/gen)<br>[gen.cpp](pD/gen/gen.cpp)<br>[data](pD/gen/data) | [:x:](pE/gen)<br>[gen.cpp](pE/gen/gen.cpp)<br>[data](pE/gen/data) |
-| solution | [:x:](pA/solution)<br>[correct.cpp](pA/solution/correct.cpp) | [:white_check_mark:](pB/solution) | [:x:](pC/solution)<br>[correct.cpp](pC/solution/correct.cpp) | [:x:](pD/solution)<br>[correct.cpp](pD/solution/correct.cpp) | [:x:](pE/solution)<br>[correct.cpp](pE/solution/correct.cpp) |
-| validator | [:x:](pA/validator)<br>[validator.cpp](pA/validator/validator.cpp) | [:white_check_mark:](pB/validator) | [:x:](pC/validator)<br>[validator.cpp](pC/validator/validator.cpp) | [:x:](pD/validator)<br>[validator.cpp](pD/validator/validator.cpp) | [:x:](pE/validator)<br>[validator.cpp](pE/validator/validator.cpp) |
+| gen | [:x:](pA/gen)<br>[gen.cpp](pA/gen/gen.cpp)<br>[data](pA/gen/data) | [:white_check_mark:](pB/gen) | [:x:](pC/gen)<br>[gen.cpp](pC/gen/gen.cpp)<br>[data](pC/gen/data) | [:white_check_mark:](pD/gen) | [:x:](pE/gen)<br>[gen.cpp](pE/gen/gen.cpp)<br>[data](pE/gen/data) |
+| solution | [:x:](pA/solution)<br>[correct.cpp](pA/solution/correct.cpp) | [:white_check_mark:](pB/solution) | [:x:](pC/solution)<br>[correct.cpp](pC/solution/correct.cpp) | [:white_check_mark:](pD/solution) | [:x:](pE/solution)<br>[correct.cpp](pE/solution/correct.cpp) |
+| validator | [:x:](pA/validator)<br>[validator.cpp](pA/validator/validator.cpp) | [:white_check_mark:](pB/validator) | [:x:](pC/validator)<br>[validator.cpp](pC/validator/validator.cpp) | [:white_check_mark:](pD/validator) | [:x:](pE/validator)<br>[validator.cpp](pE/validator/validator.cpp) |
 | subtasks.json<br>global_validators |  [:white_check_mark:](pA/subtasks.json) | [:white_check_mark:](pB/subtasks.json) | [:white_check_mark:](pC/subtasks.json) | [:white_check_mark:](pD/subtasks.json) | [:white_check_mark:](pE/subtasks.json) |
 | tests | [:x:](pA/tests)<br>[Auto build disabled](pA/gen/DISABLE_AUTO_BUILD) | [:white_check_mark:](pB/tests)<br>[Auto build disabled](pB/gen/DISABLE_AUTO_BUILD) | [:x:](pC/tests)<br>[Auto build disabled](pC/gen/DISABLE_AUTO_BUILD) | [:x:](pD/tests)<br>[Auto build disabled](pD/gen/DISABLE_AUTO_BUILD) | [:x:](pE/tests)<br>[Auto build disabled](pE/gen/DISABLE_AUTO_BUILD) |
 | statement/index.md | [:x:](pA/statement/index.md) | [:white_check_mark:](pB/statement/index.md) | [:x:](pC/statement/index.md) | [:white_check_mark:](pD/statement/index.md) | [:x:](pE/statement/index.md) |
@@ -32,7 +32,7 @@
 | A | 100<br>無額外限制 |
 | B | 17<br>$1 \le Q \le 10^3$ | 43<br>$1 \le Q \le 10^5$ | 40<br>無額外限制 |
 | C | 100<br>無額外限制 |
-| D | 100<br>無額外限制 |
+| D | 21<br>$1 \le Q \le 100$ | 79<br>無額外限制 |
 | E | 100<br>無額外限制 |
 
 <!-- subtasks end -->
@@ -42,17 +42,26 @@
 
 | score | count | groups |
 | --- | --- | --- |
-| 100 | 5 | (B1, B2, B3) (A1) (C1) (D1) (E1) |
-| 117 | 4 | (A1, B1) (B1, C1) (B1, D1) (B1, E1) |
-| 140 | 4 | (A1, B3) (B3, C1) (B3, D1) (B3, E1) |
-| 143 | 4 | (A1, B2) (B2, C1) (B2, D1) (B2, E1) |
-| 157 | 4 | (A1, B1, B3) (B1, B3, C1) (B1, B3, D1) (B1, B3, E1) |
-| 160 | 4 | (A1, B1, B2) (B1, B2, C1) (B1, B2, D1) (B1, B2, E1) |
-| 183 | 4 | (A1, B2, B3) (B2, B3, C1) (B2, B3, D1) (B2, B3, E1) |
-| 200 | 6 | (A1, C1) (A1, D1) (C1, D1) (A1, E1) (C1, E1) (D1, E1) |
-| 217 | 6 | (A1, B1, C1) (A1, B1, D1) (B1, C1, D1) (A1, B1, E1) (B1, C1, E1) (B1, D1, E1) |
-| 240 | 6 | (A1, B3, C1) (A1, B3, D1) (B3, C1, D1) (A1, B3, E1) (B3, C1, E1) (B3, D1, E1) |
-| 243 | 6 | (A1, B2, C1) (A1, B2, D1) (B2, C1, D1) (A1, B2, E1) (B2, C1, E1) (B2, D1, E1) |
-| 300 | 4 | (A1, C1, D1) (A1, C1, E1) (A1, D1, E1) (C1, D1, E1) |
+| 100 | 5 | (B1, B2, B3) (D1, D2) (A1) (C1) (E1) |
+| 117 | 4 | (B1, D1, D2) (A1, B1) (B1, C1) (B1, E1) |
+| 121 | 3 | (A1, D1) (C1, D1) (D1, E1) |
+| 138 | 3 | (A1, B1, D1) (B1, C1, D1) (B1, D1, E1) |
+| 140 | 4 | (B3, D1, D2) (A1, B3) (B3, C1) (B3, E1) |
+| 143 | 4 | (B2, D1, D2) (A1, B2) (B2, C1) (B2, E1) |
+| 157 | 3 | (A1, B1, B3) (B1, B3, C1) (B1, B3, E1) |
+| 160 | 3 | (A1, B1, B2) (B1, B2, C1) (B1, B2, E1) |
+| 161 | 3 | (A1, B3, D1) (B3, C1, D1) (B3, D1, E1) |
+| 164 | 3 | (A1, B2, D1) (B2, C1, D1) (B2, D1, E1) |
+| 179 | 3 | (A1, D2) (C1, D2) (D2, E1) |
+| 183 | 3 | (A1, B2, B3) (B2, B3, C1) (B2, B3, E1) |
+| 196 | 3 | (A1, B1, D2) (B1, C1, D2) (B1, D2, E1) |
+| 200 | 6 | (A1, D1, D2) (C1, D1, D2) (A1, C1) (D1, D2, E1) (A1, E1) (C1, E1) |
+| 217 | 3 | (A1, B1, C1) (A1, B1, E1) (B1, C1, E1) |
+| 219 | 3 | (A1, B3, D2) (B3, C1, D2) (B3, D2, E1) |
+| 221 | 3 | (A1, C1, D1) (A1, D1, E1) (C1, D1, E1) |
+| 222 | 3 | (A1, B2, D2) (B2, C1, D2) (B2, D2, E1) |
+| 240 | 3 | (A1, B3, C1) (A1, B3, E1) (B3, C1, E1) |
+| 243 | 3 | (A1, B2, C1) (A1, B2, E1) (B2, C1, E1) |
+| 279 | 3 | (A1, C1, D2) (A1, D2, E1) (C1, D2, E1) |
 
 <!-- scores end -->
