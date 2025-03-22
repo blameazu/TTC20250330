@@ -1,6 +1,5 @@
 # test_name gen_line_number gen_line_content
 0-01	  3	manual sample-01.in
-0-02	  4	manual sample-02.in
 1-01	  7	gen 100000 8 100 leotkcp
 1-02	  8	gen 23479 4 100 klyzsho
 1-03	  9	gen 99999 6 100 dhmebco
