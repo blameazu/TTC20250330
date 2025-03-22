@@ -1,0 +1,24 @@
+# test_name gen_line_number gen_line_content
+0-01	  3	manual sample-01.in
+0-02	  4	manual sample-02.in
+1-01	  7	gen 100000 998 100 jdskflj
+1-02	  8	gen 23479 4 100 ndgrzxf
+1-03	  9	gen 99999 4 100 zgcwxie
+1-04	 10	gen 100000 1000 100 lwnpmqp
+1-05	 11	gen 100000 4 100 fwupmlp
+1-06	 12	gen 100000 2 100 nfkqdws
+1-07	 13	gen 100000 2 100 vsaxlsd
+1-08	 14	gen 100000 2 88 lnlvbax
+1-09	 15	gen 90380 2 68 whgvjoi
+1-10	 16	gen 100000 2 98 zkxkgzo
+2-01	 20	gen 100000 1000 300000 zksupve
+2-02	 21	gen 100000 4 300000 whjauxb
+2-03	 22	gen 100000 234 300000 fypglog
+2-04	 23	gen 100000 4 300000 vtgmozb
+2-05	 24	gen 99999 998 300000 ajjzvwc
+2-06	 25	gen 100000 4 300000 tamvzsd
+2-07	 26	gen 100000 2 300000 ddvlncx
+2-08	 27	gen 23874 2 300000 wmydukp
+2-09	 28	gen 100000 2 300000 zcditey
+2-10	 29	gen 99999 2 300000 mkcrrwd
+2-11	 30	gen 100000 2 300000 zxyxjut
