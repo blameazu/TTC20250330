@@ -98,6 +98,7 @@ Blame 呆坐在螢幕前，疲憊到無法思考。
  - $1 \le C \le$ <font color = "red">$87$</font>
  - $1 \le Q \le 3 \cdot 10^5$
  - $1 \le A, B \le N$
+ - $A \neq B$
  - $M$ 是偶數
 
 ## 子任務
@@ -105,14 +106,8 @@ Blame 呆坐在螢幕前，疲憊到無法思考。
 
 \clearpage
 
-## 範例輸入 1
+## 範例輸入
 \testfile{0-01.in}
 
-## 範例輸出 1
+## 範例輸出
 \testfile{0-01.out}
-
-## 範例輸入 2
-\testfile{0-02.in}
-
-## 範例輸出 2
-\testfile{0-02.out}
