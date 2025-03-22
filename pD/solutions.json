@@ -1,5 +1,9 @@
 {
 	"correct.cpp": {
 		"verdict": "model_solution"
+	},
+	"brute.cpp": {
+		"verdict": "incorrect",
+		"except": {"samples": "correct", "brute": "correct", "full": "time_limit"}
 	}
 }
