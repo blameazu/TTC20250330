@@ -127,6 +127,5 @@
 \begin{figure}[h]
 \centering
 \includegraphics[width=3in]{sam1-7.jpg}
-\caption{輪到玩家 $4$，玩家 $4$ 淘汰了玩家 $1$}
-\caption{玩家 $4$ 得了MVP，沒有人是躺贏狗}
+\caption{輪到玩家 $4$，玩家 $4$ 淘汰了玩家 $1$，玩家 $4$ 得了MVP，沒有人是躺贏狗}
 \end{figure}
