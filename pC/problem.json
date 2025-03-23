@@ -1,8 +1,8 @@
 {
-	"contest_name": "TODO: 競賽名稱",
+	"contest_name": "Toj Theme Contest 001 資料結構入門",
 	"problem_label": "C",
-	"name": "TODO:_English_short_name",
-	"title": "TODO: 題目名稱",
+	"name": "2025TTC_Flying",
+	"title": "怎麼有人一直在天上飛?",
 	"memory_limit": 512,
 	"time_limit": 1.0,
 	"type": "Batch",
