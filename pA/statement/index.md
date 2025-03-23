@@ -56,7 +56,7 @@ pair<int, int> query() {
 
 ## 輸入限制
  - $1 \le x \le 10^9$
- - $1 \le$ 函式呼叫次數 $\le 10^6$
+ - $1 \le$ 函式呼叫次數 $\le 10^5$
 
 ## 子任務
 \subtasks
