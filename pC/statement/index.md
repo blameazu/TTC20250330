@@ -80,9 +80,6 @@
 \centering
 \includegraphics[width=5in]{sam1-1.jpg}
 \caption{一開始的大家的編號以及位置}
-\includegraphics[width=5in]{sam1-2.jpg}
-\includegraphics[width=5in]{sam1-6.jpg}
-\caption{輪回了玩家 $1$，玩家 $1$ 淘汰了玩家 $3$}
 \end{figure}
 \begin{figure}[h]
 \centering
