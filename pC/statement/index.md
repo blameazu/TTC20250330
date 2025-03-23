@@ -81,31 +81,37 @@
 \includegraphics[width=5in]{sam1-1.jpg}
 \caption{一開始的大家的編號以及位置}
 \end{figure}
+
 \begin{figure}[h]
 \centering
 \includegraphics[width=5in]{sam1-2.png}
 \caption{玩家性格屬性}
 \end{figure}
+
 \begin{figure}[h]
 \centering
 \includegraphics[width=5in]{sam1-3.png}
 \caption{玩家 $1$ 先開始，玩家 $1$ 淘汰了 玩家 $2$}
 \end{figure}
+
 \begin{figure}[h]
 \centering
 \includegraphics[width=5in]{sam1-4.png}
 \caption{輪到玩家 $3$，玩家 $3$ 不做事}
 \end{figure}
+
 \begin{figure}[h]
 \centering
 \includegraphics[width=5in]{sam1-5.png}
 \caption{輪到玩家 $4$，玩家 $4$ 淘汰了玩家 $5$}
 \end{figure}
+
 \begin{figure}[h]
 \centering
 \includegraphics[width=5in]{sam1-6.png}
 \caption{輪回了玩家 $1$，玩家 $1$ 淘汰了玩家 $3$}
 \end{figure}
+
 \begin{figure}[h]
 \centering
 \includegraphics[width=5in]{sam1-7.png}
