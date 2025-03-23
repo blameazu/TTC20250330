@@ -24,7 +24,7 @@
         "anti-dfs": {
             "index": 3,
             "score": 20,
-            "text": "$2 \\le N \\le 1000$",
+            "text": "$2 \\le N \\le 500$",
             "validators": ["validator-4.cpp"]
         },
         "full": {
