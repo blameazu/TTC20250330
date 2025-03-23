@@ -78,19 +78,19 @@
 
 \begin{figure}[h]
 \centering
-\includegraphics[width=5in]{sam-1.jpg}
+\includegraphics[width=5in]{sam1-1.jpg}
 \caption{一開始的大家的編號以及位置}
-\includegraphics[width=5in]{sam-2.jpg}
+\includegraphics[width=5in]{sam1-2.jpg}
 \caption{玩家性格屬性}
-\includegraphics[width=5in]{sam-3.jpg}
+\includegraphics[width=5in]{sam1-3.jpg}
 \caption{玩家 $1$ 先開始，玩家 $1$ 淘汰了 玩家 $2$}
-\includegraphics[width=5in]{sam-4.jpg}
+\includegraphics[width=5in]{sam1-4.jpg}
 \caption{輪到玩家 $3$，玩家 $3$ 不做事}
-\includegraphics[width=5in]{sam-5.jpg}
+\includegraphics[width=5in]{sam1-5.jpg}
 \caption{輪到玩家 $4$，玩家 $4$ 淘汰了玩家 $5$}
-\includegraphics[width=5in]{sam-6.jpg}
+\includegraphics[width=5in]{sam1-6.jpg}
 \caption{輪回了玩家 $1$，玩家 $1$ 淘汰了玩家 $3$}
-\includegraphics[width=5in]{sam-7.jpg}
+\includegraphics[width=5in]{sam1-7.jpg}
 \caption{輪到玩家 $4$，玩家 $4$ 淘汰了玩家 $1$}
 \caption{玩家 $4$ 得了MVP，沒有人是躺贏狗}
 \end{figure}
