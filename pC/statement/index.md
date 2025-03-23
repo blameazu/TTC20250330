@@ -74,53 +74,6 @@
 ## 範例輸出 1
 \testfile{0-01.out}
 
-## 範例解釋 1
-
-\begin{figure}[h]
-\centering
-\includegraphics[width=5in]{sam1-1.jpg}
-\caption{一開始的大家的編號以及位置}
-\end{figure}
-
-\begin{figure}[h]
-\centering
-\includegraphics[width=5in]{sam1-2.jpg}
-\caption{玩家性格屬性}
-\end{figure}
-
-\begin{figure}[h]
-\centering
-\includegraphics[width=5in]{sam1-3.jpg}
-\caption{玩家 $1$ 先開始，玩家 $1$ 淘汰了 玩家 $2$}
-\end{figure}
-
-\begin{figure}[h]
-\centering
-\includegraphics[width=5in]{sam1-4.jpg}
-\caption{輪到玩家 $3$，玩家 $3$ 不做事}
-\end{figure}
-
-\begin{figure}[h]
-\centering
-\includegraphics[width=5in]{sam1-5.jpg}
-\caption{輪到玩家 $4$，玩家 $4$ 淘汰了玩家 $5$}
-\end{figure}
-
-\begin{figure}[h]
-\centering
-\includegraphics[width=5in]{sam1-6.jpg}
-\caption{輪回了玩家 $1$，玩家 $1$ 淘汰了玩家 $3$}
-\end{figure}
-
-\begin{figure}[h]
-\centering
-\includegraphics[width=5in]{sam1-7.jpg}
-\caption{輪到玩家 $4$，玩家 $4$ 淘汰了玩家 $1$}
-\caption{玩家 $4$ 得了MVP，沒有人是躺贏狗}
-\end{figure}
-
-
-
 ## 範例輸入 2
 \testfile{0-02.in}
 
@@ -133,6 +86,47 @@
 ## 範例輸出 3
 \testfile{0-03.out}
 
-## 範例解釋 3
+## 範例解釋 1
 
-只有玩家 $1$ 會擊飛人，所以最後一定是他贏。
+\begin{figure}[h]
+\centering
+\includegraphics[width=3in]{sam1-1.jpg}
+\caption{一開始的大家的編號以及位置}
+\end{figure}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=3in]{sam1-2.jpg}
+\caption{玩家性格屬性}
+\end{figure}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=3in]{sam1-3.jpg}
+\caption{玩家 $1$ 先開始，玩家 $1$ 淘汰了 玩家 $2$}
+\end{figure}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=3in]{sam1-4.jpg}
+\caption{輪到玩家 $3$，玩家 $3$ 不做事}
+\end{figure}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=3in]{sam1-5.jpg}
+\caption{輪到玩家 $4$，玩家 $4$ 淘汰了玩家 $5$}
+\end{figure}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=3in]{sam1-6.jpg}
+\caption{輪回了玩家 $1$，玩家 $1$ 淘汰了玩家 $3$}
+\end{figure}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=3in]{sam1-7.jpg}
+\caption{輪到玩家 $4$，玩家 $4$ 淘汰了玩家 $1$}
+\caption{玩家 $4$ 得了MVP，沒有人是躺贏狗}
+\end{figure}
