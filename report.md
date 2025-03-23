@@ -7,10 +7,10 @@
 
 | | A | B | C | D | E |
 | --- | --- | --- | --- | --- | --- |
-| contest_name |  [:x:](pA/problem.json) | [:white_check_mark:](pB/problem.json) | [:x:](pC/problem.json) | [:white_check_mark:](pD/problem.json) | [:white_check_mark:](pE/problem.json) |
+| contest_name |  [:x:](pA/problem.json) | [:white_check_mark:](pB/problem.json) | [:white_check_mark:](pC/problem.json) | [:white_check_mark:](pD/problem.json) | [:white_check_mark:](pE/problem.json) |
 | problem_label |  [:white_check_mark:](pA/problem.json) | [:white_check_mark:](pB/problem.json) | [:white_check_mark:](pC/problem.json) | [:white_check_mark:](pD/problem.json) | [:white_check_mark:](pE/problem.json) |
-| name |  [:x:](pA/problem.json) | [:white_check_mark:](pB/problem.json)<br>2025TTC_Progress | [:x:](pC/problem.json) | [:white_check_mark:](pD/problem.json)<br>2025TTC_Fight | [:white_check_mark:](pE/problem.json)<br>2025TTC_ |
-| title |  [:x:](pA/problem.json) | [:white_check_mark:](pB/problem.json)<br>我是在進步還是退步? | [:x:](pC/problem.json) | [:white_check_mark:](pD/problem.json)<br>不要吵架了啦!!! | [:x:](pE/problem.json) |
+| name |  [:x:](pA/problem.json) | [:white_check_mark:](pB/problem.json)<br>2025TTC_Progress | [:white_check_mark:](pC/problem.json)<br>2025TTC_Flying | [:white_check_mark:](pD/problem.json)<br>2025TTC_Fight | [:white_check_mark:](pE/problem.json)<br>2025TTC_ |
+| title |  [:x:](pA/problem.json) | [:white_check_mark:](pB/problem.json)<br>我是在進步還是退步? | [:white_check_mark:](pC/problem.json)<br>怎麼有人一直在天上飛? | [:white_check_mark:](pD/problem.json)<br>不要吵架了啦!!! | [:x:](pE/problem.json) |
 | memory_limit |  512 | 512 | 512 | 512 | 512 |
 | time_limit |  1.0 | 1.0 | 1.0 | 1.0 | 1.0 |
 | has_checker |  False | False | False | False | False |
@@ -19,7 +19,7 @@
 | validator | [:x:](pA/validator)<br>[validator.cpp](pA/validator/validator.cpp) | [:white_check_mark:](pB/validator) | [:x:](pC/validator)<br>[validator.cpp](pC/validator/validator.cpp) | [:white_check_mark:](pD/validator) | [:x:](pE/validator)<br>[validator.cpp](pE/validator/validator.cpp) |
 | subtasks.json<br>global_validators |  [:white_check_mark:](pA/subtasks.json) | [:white_check_mark:](pB/subtasks.json) | [:white_check_mark:](pC/subtasks.json) | [:white_check_mark:](pD/subtasks.json) | [:white_check_mark:](pE/subtasks.json) |
 | tests | [:x:](pA/tests)<br>[Auto build disabled](pA/gen/DISABLE_AUTO_BUILD) | [:white_check_mark:](pB/tests) | [:x:](pC/tests)<br>[Auto build disabled](pC/gen/DISABLE_AUTO_BUILD) | [:white_check_mark:](pD/tests)<br>[Auto build disabled](pD/gen/DISABLE_AUTO_BUILD) | [:x:](pE/tests)<br>[Auto build disabled](pE/gen/DISABLE_AUTO_BUILD) |
-| statement/index.md | [:x:](pA/statement/index.md) | [:white_check_mark:](pB/statement/index.md) | [:x:](pC/statement/index.md) | [:white_check_mark:](pD/statement/index.md) | [:x:](pE/statement/index.md) |
+| statement/index.md | [:x:](pA/statement/index.md) | [:white_check_mark:](pB/statement/index.md) | [:white_check_mark:](pC/statement/index.md) | [:white_check_mark:](pD/statement/index.md) | [:x:](pE/statement/index.md) |
 | statement/index.pdf | [:x:](pA/statement/index.pdf)<br>[Auto build disabled](pA/statement/DISABLE_AUTO_BUILD) | [:white_check_mark:](pB/statement/index.pdf) | [:x:](pC/statement/index.pdf)<br>[Auto build disabled](pC/statement/DISABLE_AUTO_BUILD) | [:white_check_mark:](pD/statement/index.pdf) | [:x:](pE/statement/index.pdf)<br>[Auto build disabled](pE/statement/DISABLE_AUTO_BUILD) |
 
 <!-- progress end -->
