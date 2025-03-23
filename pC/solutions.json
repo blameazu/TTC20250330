@@ -4,6 +4,6 @@
 	},
 	"brute.cpp": {
 		"verdict": "incorrect",
-		"except": {"samples": "correct", "allA": "time_limit", "allB": "time_limit", "brute": "correct", "full": "time_limit"}
+		"except": {"samples": "correct", "allA": "correct", "allB": "correct", "brute": "correct", "full": "time_limit"}
 	}
 }
