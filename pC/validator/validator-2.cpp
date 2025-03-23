@@ -8,7 +8,7 @@ int main(int argc, char* argv[]) {
 	inf.readEoln();
 	string s = inf.readString();
 	ensure(s.size() == n);
-	for(auto &c : s) ensure(c >= 'A' && c <= 'C');
+	for(auto &c : s) ensure(c == 'B');
 	inf.readEof();
 
 	return 0;

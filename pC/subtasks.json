@@ -13,19 +13,19 @@
             "index": 1,
             "score": 3,
             "text": "$S_i \\in \\{A\\}, 1 \\le i \\le N$",
-            "validators": []
+            "validators": ["validator-1.cpp"]
         },
         "allB": {
             "index": 2,
             "score": 4,
             "text": "$S_i \\in \\{B\\}, 1 \\le i \\le N$",
-            "validators": []
+            "validators": ["validator-2.cpp"]
         },
         "brute": {
             "index": 3,
             "score": 25,
             "text": "$1 \\le N \\le 10^4$",
-            "validators": []
+            "validators": ["validator-3.cpp"]
         },
         "full": {
             "index": 4,

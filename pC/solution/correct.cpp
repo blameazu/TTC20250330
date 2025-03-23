@@ -14,7 +14,7 @@ signed main() {
 		if(s[i] != 'C')
 			ls.insert(it, {s[i]=='B', i, i});
 		else if(s[i-1] == 'C')
-			(*prev(it))[2] = i+1;
+			(*prev(it))[2] = i;
 		else
 			ls.insert(it, {2, i, i});
 	}
