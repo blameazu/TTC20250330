@@ -32,7 +32,7 @@
 | A | 100<br>無額外限制 |
 | B | 17<br>$1 \le Q \le 10^3$ | 43<br>$1 \le Q \le 10^5$ | 40<br>無額外限制 |
 | C | 100<br>無額外限制 |
-| D | 10<br>$1 \le Q \le 100$, $1 \le M \le 8$ | 11<br>$1 \le Q \le 1000$ | 20<br>$2 \le N \le 500$ | 59<br>無額外限制 |
+| D | 10<br>$1 \le Q \le 10^2$, $2 \le M \le 8$ | 11<br>$1 \le Q \le 10^3$ | 20<br>$2 \le N \le 5 \cdot 10 ^2$, $1 \le Q \le 10^4$ | 59<br>無額外限制 |
 | E | 100<br>無額外限制 |
 
 <!-- subtasks end -->
