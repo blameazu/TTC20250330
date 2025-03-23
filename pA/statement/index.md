@@ -55,15 +55,8 @@ pair<int, int> query() {
 ```
 
 ## 輸入限制
- - TODO: 輸入限制
+ - $1 \le x \le 10^9$
+ - $1 \le$ 函式呼叫次數 $\le 10^6$
 
 ## 子任務
 \subtasks
-
-\clearpage
-
-## 範例輸入
-\testfile{0-01.in}
-
-## 範例輸出
-\testfile{0-01.out}
