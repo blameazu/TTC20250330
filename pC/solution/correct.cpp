@@ -19,6 +19,7 @@ signed main() {
 			ls.insert(it, {2, i, i});
 	}
 	it = ls.begin();
+	// for(auto &[a, b, c] : ls) cout << a << ' ' << b << '\n';
 	while(n > 1) {
 		auto [a, b, c] = *it;
 		if(!a) {
@@ -30,7 +31,7 @@ signed main() {
 				ls.erase(nx);
 			}
 			n--;
-		} else if(a == 2) {
+		} else if(a == 1) {
 			auto nx = (it == ls.begin() ? prev(ls.end()) : prev(it));
 			if((*nx)[0] == 2) {
 				(*nx)[2]--;
@@ -39,7 +40,8 @@ signed main() {
 				ls.erase(nx);
 			}
 			n--;
-		} else it = (it == prev(ls.end()) ? ls.begin() : next(it));
+		}
+		it = (it == prev(ls.end()) ? ls.begin() : next(it));
 	}
 	cout << (*ls.begin())[1] << '\n';
 }
