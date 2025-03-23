@@ -12,7 +12,7 @@ int main(int argc, char* argv[]) {
 	inf.readSpace();
 	inf.readInt(1, 87, "c");
 	inf.readEoln();
-	int q = inf.readInt(1, 300000, "q");
+	int q = inf.readInt(1, 10000, "q");
 	inf.readEoln();
 	while(q--) {
 		int a = inf.readInt(1, n, "a");

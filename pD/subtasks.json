@@ -12,19 +12,19 @@
         "brute-1": {
             "index": 1,
             "score": 10,
-            "text": "$1 \\le Q \\le 100$, $1 \\le M \\le 8$",
+            "text": "$1 \\le Q \\le 10^2$, $2 \\le M \\le 8$",
             "validators": ["validator-2.cpp"]
         },
         "brute-2": {
             "index": 2,
             "score": 11,
-            "text": "$1 \\le Q \\le 1000$",
+            "text": "$1 \\le Q \\le 10^3$",
             "validators": ["validator-3.cpp"]
         },
         "anti-dfs": {
             "index": 3,
             "score": 20,
-            "text": "$2 \\le N \\le 500$",
+            "text": "$2 \\le N \\le 5 \\cdot 10 ^2$, $1 \\le Q \\le 10^4$",
             "validators": ["validator-4.cpp"]
         },
         "full": {
