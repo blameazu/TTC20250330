@@ -9,9 +9,27 @@
             "text": "範例輸入輸出",
             "validators": []
         },
-        "full": {
+        "allA": {
             "index": 1,
-            "score": 100,
+            "score": 3,
+            "text": "$S_i \\in \\{A\\}, 1 \\le i \\le N$",
+            "validators": []
+        },
+        "allB": {
+            "index": 2,
+            "score": 4,
+            "text": "$S_i \\in \\{B\\}, 1 \\le i \\le N$",
+            "validators": []
+        },
+        "brute": {
+            "index": 3,
+            "score": 25,
+            "text": "$1 \\le N \\le 10^4$",
+            "validators": []
+        },
+        "full": {
+            "index": 4,
+            "score": 68,
             "text": "無額外限制",
             "validators": []
         }

@@ -61,15 +61,27 @@
 ## 輸入限制
  - $1 \le N \le 10^6$
  - $S_i \in \{A, B, C\}, 1 \le i \le N$
- - 保證最後只會存活一人。
+ - 保證最後只會留下來一人。
 
 ## 子任務
 \subtasks
 
 \clearpage
 
-## 範例輸入
+## 範例輸入 1
 \testfile{0-01.in}
 
-## 範例輸出
+## 範例輸出 1
 \testfile{0-01.out}
+
+## 範例輸入 2
+\testfile{0-02.in}
+
+## 範例輸出 2
+\testfile{0-02.out}
+
+## 範例輸入 3
+\testfile{0-03.in}
+
+## 範例輸出 3
+\testfile{0-03.out}

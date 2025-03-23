@@ -8,8 +8,7 @@ int main(int argc, char* argv[]) {
 
 	int n = atoi(argv[1]);
 	cout << n << '\n';
-	for(int i = 0; i < n; i++) cout << char('A'+rnd.next(0, 2));
-	cout << '\n';
+	cout << string(n, 'B') << '\n';
 
 	return 0;
 }
