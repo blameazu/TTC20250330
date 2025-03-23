@@ -7,7 +7,6 @@ int main(int argc, char* argv[]) {
 	int n = inf.readInt(1, 1000000, "n");
 	inf.readEoln();
 	string s = inf.readString();
-	inf.readEoln();
 	for(auto &c : s) ensure(c >= 'A' && c <= 'C');
 	inf.readEof();
 
