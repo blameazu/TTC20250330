@@ -1,8 +1,8 @@
 {
-	"contest_name": "TODO: 競賽名稱",
+	"contest_name": "Toj Theme Contest 001 資料結構入門",
 	"problem_label": "A",
-	"name": "TODO:_English_short_name",
-	"title": "TODO: 題目名稱",
+	"name": "2025TTC_Many",
+	"title": "有很多牌就能榮和",
 	"memory_limit": 512,
 	"time_limit": 1.0,
 	"type": "Batch",
