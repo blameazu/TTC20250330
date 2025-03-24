@@ -1,3 +1,3 @@
 void add(int x);
 void remove(int x);
-int query();
+pair<int, int> query();
