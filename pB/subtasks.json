@@ -24,7 +24,7 @@
         "logs": {
             "index": 3,
             "score": 21,
-            "text": "$1 \\le Q \\le 10^5$",
+            "text": "$1 \\le Q \\le 5 \\cdot 10^5$",
             "validators": ["validator-logs.cpp"]
         },
         "full": {
