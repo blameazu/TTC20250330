@@ -1,6 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 #define ll long long
+#define int ll
 struct DSU{
 	vector<int> p;
 	DSU(int n) : p(n+1, -1) {}

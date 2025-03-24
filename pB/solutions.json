@@ -8,6 +8,9 @@
 	},
 	"test2.cpp": {
 		"verdict": "incorrect",
-		"except": {"samples": "correct", "brute": "incorrect", "brute-2": "correct", "logs": "incorrect", "full": "incorrect"}
+		"except": {"samples": "incorrect", "brute": "incorrect", "brute-2": "correct", "logs": "incorrect", "full": "incorrect"}
+	}, 
+	"intlonglong.cpp": {
+		"verdict": "correct"
 	}
 }

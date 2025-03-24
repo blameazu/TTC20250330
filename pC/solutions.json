@@ -5,5 +5,8 @@
 	"brute.cpp": {
 		"verdict": "incorrect",
 		"except": {"samples": "correct", "allA": "correct", "allB": "correct", "brute": "correct", "full": "time_limit"}
+	},
+	"intlonglong.cpp": {
+		"verdict": "correct"
 	}
 }

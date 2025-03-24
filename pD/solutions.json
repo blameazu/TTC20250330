@@ -13,5 +13,8 @@
 	"tle.cpp": {
 		"verdict": "incorrect",
 		"except": {"samples": "correct", "brute-1": "correct", "brute-2": "correct", "anti-dfs": "correct", "full": "time_limit"}
+	},
+	"intlonglong.cpp": {
+		"verdict": "correct"
 	}
 }
