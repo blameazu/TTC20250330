@@ -3,7 +3,7 @@
 <!-- progress start -->
 
 - cover.tex [:white_check_mark:](cover.tex)
-- appendix.tex [:x:](appendix.tex)
+- appendix.tex [:white_check_mark:](appendix.tex)
 
 | | A | B | C | D |
 | --- | --- | --- | --- | --- |
@@ -14,7 +14,7 @@
 | memory_limit |  512 | 512 | 512 | 512 |
 | time_limit |  1.0 | 1.0 | 1.0 | 1.0 |
 | has_checker |  False | False | False | False |
-| gen | [:white_check_mark:](pA/gen) | [:white_check_mark:](pB/gen) | [:x:](pC/gen)<br>[data](pC/gen/data) | [:white_check_mark:](pD/gen) |
+| gen | [:white_check_mark:](pA/gen) | [:white_check_mark:](pB/gen) | [:white_check_mark:](pC/gen) | [:white_check_mark:](pD/gen) |
 | solution | [:white_check_mark:](pA/solution) | [:white_check_mark:](pB/solution) | [:white_check_mark:](pC/solution) | [:white_check_mark:](pD/solution) |
 | validator | [:white_check_mark:](pA/validator) | [:white_check_mark:](pB/validator) | [:white_check_mark:](pC/validator) | [:white_check_mark:](pD/validator) |
 | subtasks.json<br>global_validators |  [:white_check_mark:](pA/subtasks.json) | [:white_check_mark:](pB/subtasks.json) | [:white_check_mark:](pC/subtasks.json) | [:white_check_mark:](pD/subtasks.json) |
