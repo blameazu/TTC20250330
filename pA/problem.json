@@ -4,7 +4,7 @@
 	"name": "2025TTC_Many",
 	"title": "有很多牌就能榮和",
 	"memory_limit": 512,
-	"time_limit": 1.0,
+	"time_limit": 0.5,
 	"type": "Batch",
 	"description": "",
 	"tps_web_url": "",
