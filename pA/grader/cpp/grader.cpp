@@ -1,8 +1,6 @@
 #include <bits/stdc++.h>
+#include <2025TTC_Many.h>
 using namespace std;
-void add(int x);
-void remove(int x);
-int query();
 int main() {
     ios::sync_with_stdio, cin.tie(0);
     int q; cin >> q;
