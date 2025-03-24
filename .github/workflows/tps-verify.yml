@@ -10,9 +10,11 @@ on:
     inputs:
       problems:
         description: 'Problem labels to verify'
+  
 
 jobs:
   run:
     uses: tobiichi3227/tps-actions/.github/workflows/tps-verify.yml@main
     with:
       problems: ${{ github.event.inputs.problems }}
+      runs-on: 'self-hosted'
