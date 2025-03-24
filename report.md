@@ -12,7 +12,7 @@
 | name |  [:white_check_mark:](pA/problem.json)<br>2025TTC_Many | [:white_check_mark:](pB/problem.json)<br>2025TTC_Progress | [:white_check_mark:](pC/problem.json)<br>2025TTC_Flying | [:white_check_mark:](pD/problem.json)<br>2025TTC_Fight |
 | title |  [:white_check_mark:](pA/problem.json)<br>有很多牌就能榮和 | [:white_check_mark:](pB/problem.json)<br>我是在進步還是退步? | [:white_check_mark:](pC/problem.json)<br>怎麼有人一直在天上飛? | [:white_check_mark:](pD/problem.json)<br>不要吵架了啦!!! |
 | memory_limit |  512 | 512 | 512 | 512 |
-| time_limit |  0.5 | 0.5 | 0.6 | 0.5 |
+| time_limit |  0.5 | 1.0 | 0.6 | 0.5 |
 | has_checker |  False | False | False | False |
 | gen | [:white_check_mark:](pA/gen) | [:white_check_mark:](pB/gen) | [:white_check_mark:](pC/gen) | [:white_check_mark:](pD/gen) |
 | solution | [:white_check_mark:](pA/solution) | [:white_check_mark:](pB/solution) | [:white_check_mark:](pC/solution) | [:white_check_mark:](pD/solution) |
