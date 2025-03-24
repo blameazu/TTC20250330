@@ -18,7 +18,7 @@
 | solution | [:white_check_mark:](pA/solution) | [:white_check_mark:](pB/solution) | [:white_check_mark:](pC/solution) | [:white_check_mark:](pD/solution) | [:x:](pE/solution)<br>[correct.cpp](pE/solution/correct.cpp) |
 | validator | [:white_check_mark:](pA/validator) | [:white_check_mark:](pB/validator) | [:white_check_mark:](pC/validator) | [:white_check_mark:](pD/validator) | [:x:](pE/validator)<br>[validator.cpp](pE/validator/validator.cpp) |
 | subtasks.json<br>global_validators |  [:white_check_mark:](pA/subtasks.json) | [:white_check_mark:](pB/subtasks.json) | [:white_check_mark:](pC/subtasks.json) | [:white_check_mark:](pD/subtasks.json) | [:white_check_mark:](pE/subtasks.json) |
-| tests | [:x:](pA/tests) | [:white_check_mark:](pB/tests) | [:white_check_mark:](pC/tests) | [:white_check_mark:](pD/tests) | [:x:](pE/tests)<br>[Auto build disabled](pE/gen/DISABLE_AUTO_BUILD) |
+| tests | [:white_check_mark:](pA/tests) | [:white_check_mark:](pB/tests) | [:white_check_mark:](pC/tests) | [:white_check_mark:](pD/tests) | [:x:](pE/tests)<br>[Auto build disabled](pE/gen/DISABLE_AUTO_BUILD) |
 | statement/index.md | [:white_check_mark:](pA/statement/index.md) | [:white_check_mark:](pB/statement/index.md) | [:white_check_mark:](pC/statement/index.md) | [:white_check_mark:](pD/statement/index.md) | [:x:](pE/statement/index.md) |
 | statement/index.pdf | [:white_check_mark:](pA/statement/index.pdf) | [:white_check_mark:](pB/statement/index.pdf) | [:white_check_mark:](pC/statement/index.pdf) | [:white_check_mark:](pD/statement/index.pdf) | [:x:](pE/statement/index.pdf)<br>[Auto build disabled](pE/statement/DISABLE_AUTO_BUILD) |
 
