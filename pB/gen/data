@@ -10,16 +10,17 @@ gen 1000 uweriop
 gen 1000 dsuof
 
 @subtask brute-2
-gen2 100000 mxdpwgne
-gen2 100000 donjxuvo
-gen2 100000 mhibwjqh
-gen2 100000 uoikrxqo
-gen2 100000 dtnyqude
-gen2 100000 ffibzjdv
-gen2 100000 jiklyqjs
-gen2 100000 brqpwhqm
-gen2 100000 iccquyuz
-gen2 100000 orongxow
+gen2 1000000 mxdpwgne
+gen2 1000000 donjxuvo
+gen2 1000000 mhibwjqh
+gen2 1000000 uoikrxqo
+gen2 1000000 dtnyqude
+gen2 1000000 ffibzjdv
+gen2 1000000 jiklyqjs
+gen2 1000000 brqpwhqm
+gen2 1000000 iccquyuz
+gen2 1000000 orongxow
+gentolog 1000000 wueijfosdj
 
 @subtask logs
 gen 100000 jklsdf
@@ -44,3 +45,4 @@ gentobrute 1000000 sdkljsdkfkajf
 gentobrute 999999 weirpuppoe
 gentobrute 823477 u03swerijoi23j
 gentobrute 1000000 serww4u4tru
+gentolog 1000000 wueijfosdj
