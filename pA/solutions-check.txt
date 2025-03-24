@@ -1,36 +1,78 @@
 correct.cpp
-solution            compile[FAIL]
-exit-code: 1
-stdout:
-stderr:
-In file included from grader.cpp:2:
-2025TTC_Many.h:3:1: error: ‘pair’ does not name a type
-    3 | pair<int, int> query();
-      | ^~~~
-grader.cpp: In function ‘int main()’:
-grader.cpp:5:10: warning: left operand of comma operator is a reference, not call, to function ‘std::ios_base::sync_with_stdio’ [-Waddress]
-    5 |     ios::sync_with_stdio, cin.tie(0);
-      |     ~~~~~^~~~~~~~~~~~~~~
-grader.cpp:5:10: warning: left operand of comma operator has no effect [-Wunused-value]
-grader.cpp:19:32: error: ‘query’ was not declared in this scope
-   19 |             pair<int,int> re = query();
-      |                                ^~~~~
+solution            compile[WARN]
+0-01                sol[OK]    0.071     check[OK]        1  [Correct]               
+0-02                sol[OK]    0.078     check[OK]        1  [Correct]               
+0-03                sol[OK]    0.072     check[OK]        1  [Correct]               
+0-04                sol[OK]    0.072     check[OK]        1  [Correct]               
+0-05                sol[OK]    0.072     check[OK]        1  [Correct]               
+0-06                sol[OK]    0.074     check[OK]        1  [Correct]               
+0-07                sol[OK]    0.072     check[OK]        1  [Correct]               
+0-08                sol[OK]    0.073     check[OK]        1  [Correct]               
+0-09                sol[OK]    0.072     check[OK]        1  [Correct]               
+0-10                sol[OK]    0.072     check[OK]        1  [Correct]               
+0-11                sol[OK]    0.021     check[OK]        1  [Correct]               
+0-12                sol[OK]    0.021     check[OK]        1  [Correct]               
+0-13                sol[OK]    0.021     check[OK]        1  [Correct]               
+0-14                sol[OK]    0.021     check[OK]        1  [Correct]               
+0-15                sol[OK]    0.022     check[OK]        1  [Correct]               
+0-16                sol[OK]    0.021     check[OK]        1  [Correct]               
+0-17                sol[OK]    0.022     check[OK]        1  [Correct]               
+0-18                sol[OK]    0.022     check[OK]        1  [Correct]               
+0-19                sol[OK]    0.021     check[OK]        1  [Correct]               
+0-20                sol[OK]    0.021     check[OK]        1  [Correct]               
+0-21                sol[OK]    0.073     check[OK]        1  [Correct]               
+0-22                sol[OK]    0.073     check[OK]        1  [Correct]               
+0-23                sol[OK]    0.072     check[OK]        1  [Correct]               
+0-24                sol[OK]    0.074     check[OK]        1  [Correct]               
+0-25                sol[OK]    0.073     check[OK]        1  [Correct]               
+0-26                sol[OK]    0.072     check[OK]        1  [Correct]               
+0-27                sol[OK]    0.072     check[OK]        1  [Correct]               
+0-28                sol[OK]    0.072     check[OK]        1  [Correct]               
+0-29                sol[OK]    0.074     check[OK]        1  [Correct]               
+0-30                sol[OK]    0.071     check[OK]        1  [Correct]               
+full                [30/30 tests]  [Correct]             [100/100 pts]  [match with expected]             0-01
+
+Subtask summary
+100/100 pts
+
+Finished.
 
 wrong.cpp
-solution            compile[FAIL]
-exit-code: 1
-stdout:
-stderr:
-In file included from grader.cpp:2:
-2025TTC_Many.h:3:1: error: ‘pair’ does not name a type
-    3 | pair<int, int> query();
-      | ^~~~
-grader.cpp: In function ‘int main()’:
-grader.cpp:5:10: warning: left operand of comma operator is a reference, not call, to function ‘std::ios_base::sync_with_stdio’ [-Waddress]
-    5 |     ios::sync_with_stdio, cin.tie(0);
-      |     ~~~~~^~~~~~~~~~~~~~~
-grader.cpp:5:10: warning: left operand of comma operator has no effect [-Wunused-value]
-grader.cpp:19:32: error: ‘query’ was not declared in this scope
-   19 |             pair<int,int> re = query();
-      |                                ^~~~~
+solution            compile[WARN]
+0-01                sol[OK]    0.072     check[OK]        1  [Correct]               
+0-02                sol[OK]    0.074     check[OK]        1  [Correct]               
+0-03                sol[OK]    0.072     check[OK]        1  [Correct]               
+0-04                sol[OK]    0.072     check[OK]        0  [Wrong Answer]          The output differs from the correct answer.
+0-05                sol[OK]    0.073     check[OK]        1  [Correct]               
+0-06                sol[OK]    0.072     check[OK]        1  [Correct]               
+0-07                sol[OK]    0.083     check[OK]        1  [Correct]               
+0-08                sol[OK]    0.074     check[OK]        1  [Correct]               
+0-09                sol[OK]    0.072     check[OK]        1  [Correct]               
+0-10                sol[OK]    0.072     check[OK]        0  [Wrong Answer]          The output differs from the correct answer.
+0-11                sol[OK]    0.021     check[OK]        1  [Correct]               
+0-12                sol[OK]    0.022     check[OK]        1  [Correct]               
+0-13                sol[OK]    0.021     check[OK]        1  [Correct]               
+0-14                sol[OK]    0.022     check[OK]        1  [Correct]               
+0-15                sol[OK]    0.022     check[OK]        1  [Correct]               
+0-16                sol[OK]    0.021     check[OK]        0  [Wrong Answer]          The output differs from the correct answer.
+0-17                sol[OK]    0.022     check[OK]        1  [Correct]               
+0-18                sol[OK]    0.022     check[OK]        1  [Correct]               
+0-19                sol[OK]    0.021     check[OK]        1  [Correct]               
+0-20                sol[OK]    0.021     check[OK]        1  [Correct]               
+0-21                sol[OK]    0.072     check[OK]        0  [Wrong Answer]          The output differs from the correct answer.
+0-22                sol[OK]    0.072     check[OK]        1  [Correct]               
+0-23                sol[OK]    0.071     check[OK]        1  [Correct]               
+0-24                sol[OK]    0.072     check[OK]        1  [Correct]               
+0-25                sol[OK]    0.074     check[OK]        0  [Wrong Answer]          The output differs from the correct answer.
+0-26                sol[OK]    0.072     check[OK]        0  [Wrong Answer]          The output differs from the correct answer.
+0-27                sol[OK]    0.074     check[OK]        0  [Wrong Answer]          The output differs from the correct answer.
+0-28                sol[OK]    0.073     check[OK]        1  [Correct]               
+0-29                sol[OK]    0.071     check[OK]        0  [Wrong Answer]          The output differs from the correct answer.
+0-30                sol[OK]    0.073     check[OK]        1  [Correct]               
+full                [30/30 tests]  [Wrong Answer]        [0/100 pts]    [match with expected]             0-04
+
+Subtask summary
+0/100 pts
+
+Finished.
 
