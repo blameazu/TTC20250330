@@ -7,71 +7,33 @@
 1-05	 10	gen 1000 dsuof
 2-01	 13	gen2 5000000 fcywbczj
 2-02	 14	gen2 5000000 hqvzdwvk
-2-03	 15	gen2 5000000 qpsliitu
-2-04	 16	gen2 5000000 phrunqig
-2-05	 17	gen2 5000000 oqpxmmxp
-2-06	 18	gen2 5000000 jrliryyn
-2-07	 19	gen2 5000000 schjsetd
-2-08	 20	gen2 5000000 rteygeju
-2-09	 21	gen2 5000000 maonncov
-2-10	 22	gen2 5000000 tteokjzo
-2-11	 23	gentolog 5000000 357143 kyxrxxre
-2-12	 24	gentolog 5000000 357143 qjzsespb
-2-13	 25	gentolog 5000000 357143 shphexwe
-2-14	 26	gentolog 5000000 357143 yiijfeha
-2-15	 27	gentolog 5000000 357143 ssztaxnh
-2-16	 28	gentolog 5000000 357143 hopzgsuf
-2-17	 29	gentolog 5000000 357143 kwpdvqic
-2-18	 30	gentolog 5000000 357143 mlvekrfq
-2-19	 31	gentolog 5000000 357143 lrkjzrri
-2-20	 32	gentolog 5000000 357143 lzldzswu
-3-01	 35	gen 100000 jklsdf
-3-02	 36	gen 100000 sdklje
-3-03	 37	gen 99999 sjdkfl
-3-04	 38	gen 82347 u03urslkdj
-3-05	 39	gen 100000 skjdlf
-3-06	 40	gentobrute 100000 jklsae
-3-07	 41	gentobrute 100000 sdkljsdkfk
-3-08	 42	gentobrute 99999 skfl
-3-09	 43	gentobrute 82347 u03slkdj
-3-10	 44	gentobrute 100000 serw
-4-01	 47	gen 1000000 oiwjer
-4-02	 48	gen 1000000 sdjfow
-4-03	 49	gen 183427 sd0fujoew
-4-04	 50	gen 1000000 pwejrld
-4-05	 51	gen 999999 lsdf
-4-06	 52	gentobrute 1000000 jklsaejsdfoj
-4-07	 53	gentobrute 1000000 sdkljsdkfkajf
-4-08	 54	gentobrute 999999 weirpuppoe
-4-09	 55	gentobrute 823477 u03swerijoi23j
-4-10	 56	gentobrute 1000000 serww4u4tru
-4-11	 57	gentolog 5000000 357143 kyxrxxre
-4-12	 58	gentolog 5000000 357143 qjzsespb
-4-13	 59	gentolog 5000000 357143 shphexwe
-4-14	 60	gentolog 5000000 357143 yiijfeha
-4-15	 61	gentolog 5000000 357143 ssztaxnh
-4-16	 62	gentolog 5000000 357143 hopzgsuf
-4-17	 63	gentolog 5000000 357143 kwpdvqic
-4-18	 64	gentolog 5000000 357143 mlvekrfq
-4-19	 65	gentolog 5000000 357143 lrkjzrri
-4-20	 66	gentolog 5000000 357143 lzldzswu
-4-21	 67	gentolog2 5000000 357143 svogiotb
-4-22	 68	gentolog2 5000000 357143 leltvwhx
-4-23	 69	gentolog2 5000000 357143 yuwcniqh
-4-24	 70	gentolog2 5000000 357143 hzchotnl
-4-25	 71	gentolog2 5000000 357143 fnbvmdce
-4-26	 72	gentolog2 5000000 357143 muhhjcvb
-4-27	 73	gentolog2 5000000 357143 rxhmpsel
-4-28	 74	gentolog2 5000000 357143 axnnabxn
-4-29	 75	gentolog2 5000000 357143 rqfennph
-4-30	 76	gentolog2 5000000 357143 otomvqbv
-4-31	 77	gen2 5000000 fcywbczj
-4-32	 78	gen2 5000000 hqvzdwvk
-4-33	 79	gen2 5000000 qpsliitu
-4-34	 80	gen2 5000000 phrunqig
-4-35	 81	gen2 5000000 oqpxmmxp
-4-36	 82	gen2 5000000 jrliryyn
-4-37	 83	gen2 5000000 schjsetd
-4-38	 84	gen2 5000000 rteygeju
-4-39	 85	gen2 5000000 maonncov
-4-40	 86	gen2 5000000 tteokjzo
+2-03	 15	gentolog 5000000 357143 kyxrxxre
+2-04	 16	gentolog 5000000 357143 qjzsespb
+2-05	 17	gentolog 4999999 2342342 qjzsespb
+3-01	 20	gen 100000 jklsdf
+3-02	 21	gen 100000 sdklje
+3-03	 22	gen 99999 sjdkfl
+3-04	 23	gen 82347 u03urslkdj
+3-05	 24	gen 100000 skjdlf
+3-06	 25	gentobrute 100000 jklsae
+3-07	 26	gentobrute 100000 sdkljsdkfk
+3-08	 27	gentobrute 99999 skfl
+3-09	 28	gentobrute 82347 u03slkdj
+3-10	 29	gentobrute 100000 serw
+4-01	 32	gen 1000000 oiwjer
+4-02	 33	gen 1000000 sdjfow
+4-03	 34	gen 183427 sd0fujoew
+4-04	 35	gen 1000000 pwejrld
+4-05	 36	gen 999999 lsdf
+4-06	 37	gentobrute 1000000 jklsaejsdfoj
+4-07	 38	gentobrute 1000000 sdkljsdkfkajf
+4-08	 39	gentobrute 999999 weirpuppoe
+4-09	 40	gentobrute 823477 u03swerijoi23j
+4-10	 41	gentobrute 1000000 serww4u4tru
+4-11	 42	gentolog 5000000 357143 kyxrxxre
+4-12	 43	gentolog 5000000 357143 lzldzswu
+4-13	 44	gentolog2 5000000 357143 svogiotb
+4-14	 45	gentolog2 5000000 357143 leltvwhx
+4-15	 46	gentolog2 5000000 357143 otomvqbv
+4-16	 47	gen2 5000000 fcywbczj
+4-17	 48	gen2 5000000 tteokjzo
