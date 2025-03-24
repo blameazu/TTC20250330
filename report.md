@@ -12,7 +12,7 @@
 | name |  [:white_check_mark:](pA/problem.json)<br>2025TTC_Many | [:white_check_mark:](pB/problem.json)<br>2025TTC_Progress | [:white_check_mark:](pC/problem.json)<br>2025TTC_Flying | [:white_check_mark:](pD/problem.json)<br>2025TTC_Fight |
 | title |  [:white_check_mark:](pA/problem.json)<br>有很多牌就能榮和 | [:white_check_mark:](pB/problem.json)<br>我是在進步還是退步? | [:white_check_mark:](pC/problem.json)<br>怎麼有人一直在天上飛? | [:white_check_mark:](pD/problem.json)<br>不要吵架了啦!!! |
 | memory_limit |  512 | 512 | 512 | 512 |
-| time_limit |  0.5 | 0.8 | 0.6 | 0.5 |
+| time_limit |  0.5 | 0.5 | 0.6 | 0.5 |
 | has_checker |  False | False | False | False |
 | gen | [:white_check_mark:](pA/gen) | [:white_check_mark:](pB/gen) | [:white_check_mark:](pC/gen) | [:white_check_mark:](pD/gen) |
 | solution | [:white_check_mark:](pA/solution) | [:white_check_mark:](pB/solution) | [:white_check_mark:](pC/solution) | [:white_check_mark:](pD/solution) |
@@ -30,7 +30,7 @@
 | | 1 | 2 | 3 | 4 |
 | --- | --- | --- | --- | --- |
 | A | 100<br>無額外限制 |
-| B | 17<br>$1 \le Q \le 10^3$ | 19<br>$X \in \{1, 3\}$ | 21<br>$1 \le Q \le 10^5$ | 43<br>無額外限制 |
+| B | 17<br>$1 \le Q \le 10^3$ | 19<br>$X \in \{1, 3\}$ | 21<br>$1 \le Q \le 5 \cdot 10^5$ | 43<br>無額外限制 |
 | C | 3<br>$S_i \in \{A\}, 1 \le i \le N$ | 4<br>$S_i \in \{B\}, 1 \le i \le N$ | 25<br>$1 \le N \le 10^4$ | 68<br>無額外限制 |
 | D | 10<br>$1 \le Q \le 10^2$, $2 \le M \le 8$ | 11<br>$1 \le Q \le 10^3$ | 20<br>$2 \le N \le 5 \cdot 10 ^2$, $1 \le Q \le 10^4$ | 59<br>無額外限制 |
 
