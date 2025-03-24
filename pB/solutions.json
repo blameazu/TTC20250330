@@ -12,5 +12,9 @@
 	}, 
 	"intlonglong.cpp": {
 		"verdict": "correct"
+	},
+	"log.cpp": {
+		"verdict": "incorrect",
+		"except": {"samples": "correct", "brute": "correct", "brute-2": "time_limit", "logs": "correct", "full": "time_limit"}
 	}
 }
