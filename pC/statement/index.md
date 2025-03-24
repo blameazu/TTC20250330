@@ -86,6 +86,8 @@
 ## 範例輸出 3
 \testfile{0-03.out}
 
+\clearpage
+
 ## 範例解釋 1
 
 \begin{figure}[h]
