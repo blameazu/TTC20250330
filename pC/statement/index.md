@@ -131,3 +131,9 @@
 \includegraphics[width=3in]{sam1-7.jpg}
 \caption{輪到玩家 $4$，玩家 $4$ 淘汰了玩家 $1$，玩家 $4$ 得了MVP，沒有人是躺贏狗}
 \end{figure}
+
+\clearpage
+
+## 範例解釋3
+
+因為只有玩家 $1$ 會擊飛人，所以留到最後的一定是他。
