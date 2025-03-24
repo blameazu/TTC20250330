@@ -15,15 +15,21 @@
             "text": "$1 \\le Q \\le 10^3$",
             "validators": ["validator-brute.cpp"]
         },
-        "logs": {
+        "brute-2": {
             "index": 2,
-            "score": 43,
+            "score": 19,
+            "text": "$X \\in \\{1, 3\\}$",
+            "validators": ["validator-brute-2.cpp"]
+        },
+        "logs": {
+            "index": 3,
+            "score": 21,
             "text": "$1 \\le Q \\le 10^5$",
             "validators": ["validator-logs.cpp"]
         },
         "full": {
-            "index": 3,
-            "score": 40,
+            "index": 4,
+            "score": 43,
             "text": "無額外限制",
             "validators": []
         }
