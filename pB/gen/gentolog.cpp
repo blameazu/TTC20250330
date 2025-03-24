@@ -8,7 +8,7 @@ int main(int argc, char* argv[]) {
 
 	int q = atoi(argv[1]);
 	cout << q << '\n';
-	int pu = q*argv[2]/100;
+	int pu = q*atoi(argv[2])/100;
 	for(int i = 0; i < pu; i++) cout << "1 87\n";
 	for(int i = 0; i < q-pu; i++) cout << "3\n";
 
