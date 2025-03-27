@@ -7,6 +7,4 @@ exclude:
   - pC/tests/
   - pD/scripts/
   - pD/tests/
-  - pE/scripts/
-  - pE/tests/
 # NEWPROBLEM
