@@ -7,6 +7,6 @@
 	},
 	"tle.cpp": {
 		"verdict": "incorrect",
-		"expect": {"samples":"correct", "full": "time_limit"}
+		"except": {"samples":"correct", "full": "time_limit"}
 	}
 }
