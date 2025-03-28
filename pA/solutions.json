@@ -4,5 +4,9 @@
 	},
 	"wrong.cpp": {
 		"verdict": "incorrect"
+	},
+	"tle.cpp": {
+		"verdict": "incorrect",
+		"expect": {"samples":"correct", "full": "time_limit"}
 	}
 }
