@@ -11,7 +11,7 @@ void remove(int x) {
 	if(mp[x]) {
 		se.erase({mp[x], -x});
 		mp[x]--;
-		se.insert({mp[x], -x});
+		if(mp[x]) se.insert({mp[x], -x});
 	}
 }
 pair<int,int> query() {
