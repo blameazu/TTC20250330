@@ -9,6 +9,12 @@ gen 100000 2 100 vrtgmjr
 gen 100000 2 88 kixyeff
 gen 90380 2 68 qbmrzjc
 gen 100000 2 98 yzokosq
+gen 3 2 100 asdkflj
+gen 3 2 100 weiofjo
+gen 3 2 100 asdsdfhwe
+gen 3 2 100 weiswew
+gen 3 2 100 asdk234r
+gen 3 2 100 weiodsf
 
 @subtask brute-2
 manual test87.in
@@ -18,6 +24,12 @@ gen 100000 2 880 lnlvbax
 gen 90380 2 680 whgvjoi
 gen 100000 2 980 zkxkgzo
 gen 3 2 1000 skdlfjslj
+gen 3 2 1000 asdkfljsdf
+gen 3 2 1000 weiofjosdjfk
+gen 3 2 1000 asdsdfhwesjfdk
+gen 3 2 1000 weiswewijwe
+gen 3 2 1000 asdk234rsdfjio
+gen 3 2 1000 weiodsfjwieof
 
 @subtask anti-dfs
 manual test87.in
@@ -27,6 +39,11 @@ gen 500 2 10000 234u
 gen 499 2 10000 238094
 gen 500 2 10000 jklsfd
 gen 5 2 10000 sfdkl
+gen 5 2 10000 ssdfk
+gen 5 2 10000 sfdklwedfsjo
+gen 5 2 10000 234jlksdf
+gen 5 2 10000 sf23ioj
+gen 5 2 10000 s234jlj
 
 @subtask full
 manual test87.in
@@ -41,3 +58,9 @@ gen 100000 2 300000 jweiojfd
 gen 99999 2 300000 sjdfioc
 gen 100000 2 300000 3u28r
 gen 100 2 300000 hahah
+gen 100 2 300000 h234kl
+gen 100 2 300000 h234oiji
+gen 100 2 300000 hsdflk
+gen 100 2 300000 fjsdl
+gen 100 2 300000 243kjfs
+gen 100 2 300000 24jlkdfs
