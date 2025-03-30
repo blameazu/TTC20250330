@@ -7,8 +7,7 @@ int main(int argc, char* argv[]) {
 
 	int n = inf.readInt(2, 100000, "n");
 	inf.readSpace();
-	int m = inf.readInt(1, 1000, "m");
-	ensure(m%2==0);
+	int m = inf.readInt(2, 2, "m");
 	inf.readSpace();
 	inf.readInt(1, 87, "c");
 	inf.readEoln();

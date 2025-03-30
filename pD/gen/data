@@ -3,11 +3,6 @@
 manual sample-01.in
 
 @subtask brute-1
-gen 100000 8 100 leotkcp
-gen 23479 4 100 klyzsho
-gen 99999 6 100 dhmebco
-gen 100000 4 100 bcwrriq
-gen 100000 4 100 xjmkekw
 gen 100000 2 100 ttjaqjq
 gen 100000 2 100 vrtgmjr
 gen 100000 2 88 kixyeff
@@ -15,11 +10,6 @@ gen 90380 2 68 qbmrzjc
 gen 100000 2 98 yzokosq
 
 @subtask brute-2
-gen 100000 998 1000 jdskflj
-gen 23479 4 1000 ndgrzxf
-gen 99999 4 1000 zgcwxie
-gen 100000 1000 1000 lwnpmqp
-gen 100000 4 1000 fwupmlp
 gen 100000 2 1000 nfkqdws
 gen 100000 2 1000 vsaxlsd
 gen 100000 2 880 lnlvbax
@@ -27,12 +17,6 @@ gen 90380 2 680 whgvjoi
 gen 100000 2 980 zkxkgzo
 
 @subtask anti-dfs
-gen 500 1000 10000 cmvkm
-gen 500 4 10000 u0u3jsd
-gen 500 234 10000 wjejfsd
-gen 500 4 10000 jskmv
-gen 499 998 10000 sjdfe
-gen 500 4 10000 u8203
 gen 500 2 10000 u203rjsd
 gen 274 2 10000 u3owiejr
 gen 500 2 10000 234u
@@ -40,12 +24,6 @@ gen 499 2 10000 238094
 gen 500 2 10000 jklsfd
 
 @subtask full
-gen 100000 1000 300000 zksupve
-gen 100000 4 300000 whjauxb
-gen 100000 234 300000 fypglog
-gen 100000 4 300000 vtgmozb
-gen 99999 998 300000 ajjzvwc
-gen 100000 4 300000 tamvzsd
 gen 100000 2 300000 ddvlncx
 gen 23874 2 300000 wmydukp
 gen 100000 2 300000 zcditey

@@ -94,12 +94,11 @@ Blame 呆坐在螢幕前，疲憊到無法思考。
 
 ## 輸入限制
  - $2 \le N \le 10^5$
- - $2 \le M \le 10^3$
+ - $M = 2$
  - $1 \le C \le$ <font color = "red">$87$</font>
  - $1 \le Q \le 3 \cdot 10^5$
  - $1 \le A, B \le N$
  - $A \neq B$
- - $M$ 是偶數
 
 ## 子任務
 \subtasks
