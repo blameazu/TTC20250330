@@ -32,7 +32,7 @@
 | A | 100<br>無額外限制 |
 | B | 17<br>$1 \le Q \le 10^3$ | 19<br>$X \in \{1, 3\}$ | 21<br>$1 \le Q \le 5 \cdot 10^5$ | 43<br>無額外限制 |
 | C | 3<br>$S_i \in \{A\}, 1 \le i \le N$ | 4<br>$S_i \in \{B\}, 1 \le i \le N$ | 25<br>$1 \le N \le 10^4$ | 68<br>無額外限制 |
-| D | 10<br>$1 \le Q \le 10^2$, $2 \le M \le 8$ | 11<br>$1 \le Q \le 10^3$ | 20<br>$2 \le N \le 5 \cdot 10 ^2$, $1 \le Q \le 10^4$ | 59<br>無額外限制 |
+| D | 10<br>$1 \le Q \le 10^2$ | 11<br>$1 \le Q \le 10^3$ | 20<br>$2 \le N \le 5 \cdot 10 ^2$, $1 \le Q \le 10^4$ | 59<br>無額外限制 |
 
 <!-- subtasks end -->
 
