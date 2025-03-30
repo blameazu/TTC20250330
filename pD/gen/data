@@ -3,6 +3,7 @@
 manual sample-01.in
 
 @subtask brute-1
+manual test87.in
 gen 100000 2 100 ttjaqjq
 gen 100000 2 100 vrtgmjr
 gen 100000 2 88 kixyeff
@@ -10,23 +11,33 @@ gen 90380 2 68 qbmrzjc
 gen 100000 2 98 yzokosq
 
 @subtask brute-2
+manual test87.in
 gen 100000 2 1000 nfkqdws
 gen 100000 2 1000 vsaxlsd
 gen 100000 2 880 lnlvbax
 gen 90380 2 680 whgvjoi
 gen 100000 2 980 zkxkgzo
+gen 3 2 1000 skdlfjslj
 
 @subtask anti-dfs
+manual test87.in
 gen 500 2 10000 u203rjsd
 gen 274 2 10000 u3owiejr
 gen 500 2 10000 234u
 gen 499 2 10000 238094
 gen 500 2 10000 jklsfd
+gen 5 2 10000 sfdkl
 
 @subtask full
+manual test87.in
 gen 100000 2 300000 ddvlncx
 gen 23874 2 300000 wmydukp
 gen 100000 2 300000 zcditey
 gen 99999 2 300000 mkcrrwd
 gen 100000 2 300000 zxyxjut
-
+gen 100000 2 300000 werd
+gen 23874 2 300000 sjdifoljs
+gen 100000 2 300000 jweiojfd
+gen 99999 2 300000 sjdfioc
+gen 100000 2 300000 3u28r
+gen 100 2 300000 hahah
