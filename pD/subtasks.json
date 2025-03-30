@@ -12,7 +12,7 @@
         "brute-1": {
             "index": 1,
             "score": 10,
-            "text": "$1 \\le Q \\le 10^2$, $2 \\le M \\le 8$",
+            "text": "$1 \\le Q \\le 10^2$",
             "validators": ["validator-2.cpp"]
         },
         "brute-2": {
